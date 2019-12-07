@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class AssignmentStatement implements Statement {
 	private Id var;
 	private ArithmeticExpression expr;
