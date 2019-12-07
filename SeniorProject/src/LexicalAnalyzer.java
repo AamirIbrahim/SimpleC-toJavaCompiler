@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
