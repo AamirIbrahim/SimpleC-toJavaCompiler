@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class BinaryExpression implements ArithmeticExpression {
 	public enum ArithmeticOperator {ADD_OP, SUB_OP, MUL_OP, DIV_OP, MODULU_OP}
 	private ArithmeticOperator op;
