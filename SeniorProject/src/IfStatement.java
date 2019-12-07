@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class IfStatement implements Statement {
 	private BooleanExpression expr;
 	private Block blk1, blk2;
