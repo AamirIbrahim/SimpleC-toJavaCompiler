@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public enum TokenType
 {
 	FUNCTION_TOK, LEFT_PAREN_TOK, RIGHT_PAREN_TOK, IF_TOK, THEN_TOK, END_TOK, 
