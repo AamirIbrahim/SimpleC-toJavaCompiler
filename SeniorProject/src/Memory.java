@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class Memory
 {
 	private static int[] mem = new int[52];
