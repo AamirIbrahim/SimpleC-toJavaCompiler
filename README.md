@@ -1,4 +1,4 @@
-# SimpleC-SharptoJavaCompiler
+# SimpleCSharptoJavaCompiler
 A simple C# to Java compiler which only has the functionality of Print Statements, If Statements, and While Loops. This compiler was built with the three important aspects of the compiler: Lexical Analyzer, Parser, and the Interpreter. 
 # Lexical Analyzer
 The Lexical Analyzer tokenizes the input file, and each token works as a label for what the corresponding value is associated with. Each parenthesis, curly brace, and operator must be tokenized for the parser to begin with creating statements regarding the tokens. The Lexical Analyzer is the easiest part of the program as it contains very little logic other than creating tokens for a language's syntax. 
