@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class ParserException extends Exception {
 
 	private static final long serialVersionUID = 2284169084900414715L;
