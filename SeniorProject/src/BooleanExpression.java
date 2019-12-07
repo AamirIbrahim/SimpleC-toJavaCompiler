@@ -1,10 +1,7 @@
 /*
-Team Members:
+Author:
 Aamir Ibrahim
-Bayleigh Correl
-Adam Gonglach
-Harry Haisty
- */
+*/
 public class BooleanExpression {
 	public enum RelationalOperator	{EQ_OP, NE_OP, GT_OP, GE_OP, LT_OP, LE_OP}
 	private RelationalOperator op;
