@@ -57,6 +57,8 @@ public class Interpreter {
 			interpreterGUI gui2 = new interpreterGUI("src/test2.cs", "src/b.java", "src/output2.txt");
 			interpreterGUI gui3 = new interpreterGUI("src/test3.cs", "src/c.java", "src/output3.txt");
 			interpreterGUI gui4 = new interpreterGUI("src/test4.cs", "src/d.java", "src/output4.txt");
+
+			deleteUnneededValues();
 		}
 		catch (ParserException e) {
 			System.out.println (e.getMessage());
@@ -74,11 +76,31 @@ public class Interpreter {
 			System.out.println ("unknown error occurred - terminating");
 		}
 	}
-	private static void CSharptoJava(String fileName) throws IOException {
+	private static void deleteUnneededValues(){
+		File file = new File("src/output.txt");
+		File file2 = new File("src/output2.txt");
+		File file3 = new File("src/output3.txt");
+		File file4 = new File("src/output4.txt");
+
+		File file5 = new File("src/a.java");
+		File file6 = new File("src/b.java");
+		File file7 = new File("src/c.java");
+		File file8 = new File("src/d.java");
+
+		file.deleteOnExit();
+		file2.deleteOnExit();
+		file3.deleteOnExit();
+		file4.deleteOnExit();
+		file5.deleteOnExit();
+		file6.deleteOnExit();
+		file7.deleteOnExit();
+		file8.deleteOnExit();
+	}
+	private static void CSharptoJava(String fileName) {
 		try {
 			File file = new File(fileName);
 			BufferedReader reader = new BufferedReader(new FileReader(file));
-			String line = "", oldtext = "";
+			String line, oldtext = "";
 			while ((line = reader.readLine()) != null) {
 				oldtext += line + "\r\n";
 			}
